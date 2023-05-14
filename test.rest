@@ -1,0 +1,15 @@
+
+POST http://15.206.50.218:8082/v1/auth/register
+Content-Type: application/json
+
+{
+    "email": "ae83@gmail.com",
+    "name": "arrkit",
+    "password": "ankit1000"
+}
+
+
+###
+
+GET http://15.206.50.218:8082/v1/users/63aecb355c303219c21ede5e
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2FlY2IzNTVjMzAzMjE5YzIxZWRlNWUiLCJ0eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjcyNDE0MDY5LCJpYXQiOjE2NzIzOTk2NjkuOTExfQ.wdiC_IHjcDWa-mSMQGxHrVf4XrM7SOpFdto2iNQYPoI
